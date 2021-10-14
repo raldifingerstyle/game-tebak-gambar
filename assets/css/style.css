@@ -3,8 +3,8 @@
 body{
     font-family: 'Finger paint', cursive;
     background-color: #000000;
-	margin: 0;
-   padding: 0;
+	margin: auto;
+   padding: auto;
 }
 
 h1{
@@ -17,8 +17,8 @@ h5{
 
 #gameboard{ 
     margin: 5vh auto;
-    height: 60vh;
-    width: 60vw;
+    height: 60vh auto;
+    width: 60vw auto;
 }
 
 .gametile{
@@ -46,7 +46,7 @@ h5{
 }
 
 .label{
-    margin-top: 20px;
+    margin-top: 25px auto;
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -55,8 +55,8 @@ h5{
 .btn{
     text-align: center;
     width: 100%;
-    padding: 2%;
-    margin-bottom: 10%;
+    padding: 0% auto;
+    margin-bottom: auto;
     font-weight: 600;
     font-size: 2.5em;
 }
